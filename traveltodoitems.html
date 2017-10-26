@@ -1,0 +1,85 @@
+<html>
+	<head>
+		<title>
+			Travel to do items
+		</title>
+		<script type="text/javascript" src ="js/jquery-2.2.3.min.js"></script>
+		<script type="text/javascript" src ="js/bootstrap.min.js"></script>
+		<link rel ="stylesheet" href = "css/bootstrap.min.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse" >
+			<div class ="container">
+				<div class ="navbar-header">
+					<button type ="button" class="navbar-toggle collapsed" data toggle = "collapse" data-target = "#navbar" aria-expanded="false" aria-controls ="navbar">
+						<span class ="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class ="navbar-brand" href ='/recipecategorylist'>to do</a>
+			
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class ="nav navbar-nav">
+					<li class ="active"><a href ='/recipecategorylist'>home</a>
+					<li class="dropdown">
+						<a href ="#" class="dropdown-toggle" data-toggle = "dropdown" role ="button" aria-haspopup ="true" aria-expanded ="false">RecipeList<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href ='/recipecategorylist'>Recipe List</a><li>
+							<li><a href ='/recipecategorylist'>Recipe List</a><li>
+						</ul>
+					</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href ="login.html">logout</li>
+					</ul>
+					</div>
+			</div>
+		</nav>
+		<div class ="container">
+		<h1 class="text-warning bg-success text-center">Travel todo items<h1>
+		<a href ="additem.html" class="pull-right btn btn-group btn-info btn-sm"><i class="glyphicon glyphicon-plus">add</i></a>
+			<table class="table table-bordered table-horver table-responsive">
+				<thead>
+					<tr class = "danger">
+						<th>ID</th>
+						<th>Name</th>
+						<th>Edit</th>
+						<th>Delete</th>
+					</tr>
+				<thead>
+				<tbody>
+					<tr class = "success">
+						<td>1</td>
+						<td>Go to Mara</td>
+						<td><a href="edititem.html" class="btn btn-info btn-sm"><i class="glyphicon glyphicon-plus"> edit</i></a></td>
+						<!--<td><a href ="E:/thecodevillage/htmlIntro/edititem.html"><button type ="button" class="btn btn-success">edit</button></a></td>-->
+						<td><button type= "button" class = "btn btn-success">delete</button></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<script>
+			
+			$(function() {
+			
+			console.log("hello good people");
+			console.log("Jane");
+			console.log("joseph");
+			console.log("Julian");
+			alert("this is javascript");
+			var a=10;
+			var b=40;
+			console.log(a+b);
+			alert(a+b);
+			function add(a,b){
+			return a+b;
+			}
+			
+			});
+
+
+			</script>
+	<body>
+</html>

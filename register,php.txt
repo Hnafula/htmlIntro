@@ -1,0 +1,35 @@
+
+<html>
+<form name = "frmRegister" id = "frmRegister" method = "POST">
+<label for ="name">First Name</label>
+<input type ="text" name = "FirstName" id ="firstName" />
+<br />
+
+<label for ="name">Last Name</label>
+<input type ="text" name = "lastName" id ="lastName" />
+<br />
+
+<label for ="name">Email</label>
+<input type ="email" name = "email" id ="email" />
+<br />
+
+<label for ="name">Phone Number</label>
+<input type ="number" name = "phoneNumber" id ="phoneNumber" />
+<br />
+
+<label for ="name">Age</label>
+<input type ="number" name = "age" id ="age" />
+<br />
+
+<label for ="comment">Comment</label>
+<textarea cols ="10" rows = "5"></textarea>
+<br />
+
+<label for ="file">Upload a picture</label>
+<input type="file" name = "file" id ="file">
+<br />
+
+<button type="submit">Save</button>
+
+</form>
+</html>
